@@ -17,7 +17,7 @@
         </nav>
         <nav class="w-full hidden lg:flex">
             <nav class="text-black uppercase font-instrument text-l text-bold w-[100%] lg:flex hidden justify-between">
-                <img draggable="false" src="/dsntm-png-cropped.svg" class="lg:h-10 h-8 block  " alt="logo" style="object-fit: cover">
+                <img draggable="false" src="/logoeat.webp" class="lg:h-14 h-8 block  " alt="logo" style="object-fit: cover">
                 <div class="flex py-2 justify-center gap-12 items-center">
                     <a href="/" class="hover:cursor-pointer hover:underline hover:scale-105 hover:opacity-80 transition-all ease-in-out duration-300">
                         <div class="flex justify-center items-center flex-row gap-2 ">

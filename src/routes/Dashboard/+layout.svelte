@@ -7,7 +7,16 @@
         SidebarDropdownItem,
         SidebarDropdownWrapper,
     } from 'flowbite-svelte';
-    import { ChartPieSolid, GridSolid, ShoppingCartSolid, MailBoxSolid, UserSolid, ArrowRightToBracketSolid, FileEditSolid } from 'flowbite-svelte-icons';
+    import {
+        ChartPieSolid,
+        GridSolid,
+        ShoppingCartSolid,
+        MailBoxSolid,
+        UserSolid,
+        ArrowRightToBracketSolid,
+        FileEditSolid,
+        UserSettingsSolid
+    } from 'flowbite-svelte-icons';
     import Footer from "../Footer.svelte";
     let spanClass = 'flex-1 ml-3 whitespace-nowrap';
 </script>
@@ -20,26 +29,18 @@
                     <ChartPieSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
                 </svelte:fragment>
             </SidebarItem> -->
-            <SidebarDropdownWrapper label="Branch">
+            <SidebarItem label="Products">
                 <svelte:fragment slot="icon">
                     <ShoppingCartSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
                 </svelte:fragment>
-                <SidebarDropdownItem href="/Dashboard/Branch/CSE" label="CSE"/>
 
-                <SidebarDropdownItem href="/Dashboard/Branch/IT" label="IT" />
-                <SidebarDropdownItem href="/Dashboard/Branch/AIML" label="AIML" />
-                <SidebarDropdownItem href="/Dashboard/Branch/AIDS" label="AIDS" />
-                <SidebarDropdownItem href="/Dashboard/Branch/ECE" label="ECE" />
-            </SidebarDropdownWrapper>
-            <SidebarDropdownWrapper label="Skills">
+            </SidebarItem>
+            <SidebarItem label="Settings">
                 <svelte:fragment slot="icon">
-                    <ShoppingCartSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+                    <UserSettingsSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
                 </svelte:fragment>
-                <SidebarDropdownItem label="App Dev" />
-                <SidebarDropdownItem label="Web Dev" />
-                <SidebarDropdownItem label="Cyber Security" />
-                <SidebarDropdownItem label="DSA" />
-            </SidebarDropdownWrapper>
+
+            </SidebarItem>
             <!-- <SidebarItem label="Inbox" {spanClass}>
                 <svelte:fragment slot="icon">
                     <MailBoxSolid class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
