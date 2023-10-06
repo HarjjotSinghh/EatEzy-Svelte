@@ -70,7 +70,7 @@
 		opacity: [0, 1],
 		easing: 'spring(1, 80, 10, 4)',
 		duration: 200,
-		delay: 3600
+		delay: 3800
 		});
 
         anime({
@@ -78,7 +78,7 @@
 		opacity: [0,1],
 		easing: 'easeInSine',
 		duration: 1000,
-		delay: 3800
+		delay: 4000
 		});
 
         anime({
@@ -124,7 +124,7 @@
                     </h2> 
                 {/if}
                 <h2 class="dila-denge bg-gradient-to-r from-gradient1 to-gradient2  text-transparent bg-clip-text text-[44px] lg:text-7xl text-4xl select-none block font-instrument overflow-visible h-[80px] font-[900]">{lowerText}</h2>
-                <p class="text-xl get-started text-text pb-2">We have a life-changing solution for you!</p>
+                <p class="text-xl get-started max-w-[400px] text-text pb-2">We have an <b>epic solution</b> for you which saves your <i>precious time</i>!</p>
                 <a href="/register" class="get-started btn rounded-xl py-1 px-6 bg-gradient1 hover:bg-gradient1/5 hover:text-text hover:border-gradient1 border-1 border-background text-background font-bold">Get Started</a>
                 <!-- <button class="know-more mt-4 py-2 px-4 text-xl font-instrument text-text border-2 border-gradient2 hover:bg-gradient2 rounded-xl cursor-pointer">
                     Know More
